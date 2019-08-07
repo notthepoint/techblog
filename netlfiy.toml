@@ -1,0 +1,9 @@
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.20"
+
+[context.production.environment]
+  HUGO_VERSION = "0.20"
+
+[build]
+publish = "public"
+command = "hugo --themesDir ../.. --minify"

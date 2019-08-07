@@ -1,7 +1,7 @@
 baseURL = "https://confident-curran-2635ec.netlify.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
-title = "dot"
+title = "dot's website"
 theme = "cupper-hugo-theme"
 googleAnalytics = "UA-123456789-1"
 disqusShortname = "yourdiscussshortname"
@@ -17,8 +17,8 @@ enableGitInfo = true
   quality = 99
 
 [params]
-  description = "Hi I'm dot. This is my blog. Welcome."
-  homeMetaContent = "Hi I'm dot. This is my blog. Welcome."
+  description = "👋 Hi I'm dot."
+  homeMetaContent = "*wave* Hi I'm dot."
   footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat = "Jan 2, 2006"
@@ -32,17 +32,9 @@ enableGitInfo = true
     weight = 1
   [[menu.nav]]
     name = "Blog"
-    url = "/post/"
+    url = "/posts/"
     weight = 2
-  [[menu.nav]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
   [[menu.nav]]
     name = "About"
     url = "/about/"
     weight = 4
-  [[menu.nav]]
-    name = "RSS"
-    url = "/index.xml"
-    weight = 5
