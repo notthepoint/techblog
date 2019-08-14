@@ -1,10 +1,8 @@
 ---
-title: "Floating Point Numbers"
+title: "What are Floating Point Numbers?"
 date: 2019-08-07T15:08:23+01:00
 draft: false
 ---
-
-# Floating point numbers
 
 Take a look at the following calculation, written in Ruby.
 
