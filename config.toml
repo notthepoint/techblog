@@ -1,4 +1,4 @@
-baseURL = "http://www.dotdoes.tech"
+baseURL = "https://www.dotdoes.tech"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "dot's website"
