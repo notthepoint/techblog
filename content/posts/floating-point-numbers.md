@@ -27,8 +27,8 @@ When dealing with very large numbers and/or very small numbers a computer would 
 Let's again take the approximate mass of an electron (0.000000000000000000000000000000911) and the estimate for the mass of the earth (5,972,200,000,000,000,000,000,000). That's a lot of 0s that need storing! However, if we were to store numbers like their scientific notation, we could have high accurary with low storage. In scientific notation we have;
 
 
-$0.000000000000000000000000000000911 = 9.11 \times 10^-31$
-$5972200000000000000000000 = 5.9722 \times 10^{24}$.
+$$0.000000000000000000000000000000911 = 9.11 \times 10^-31$$
+$$5972200000000000000000000 = 5.9722 \times 10^{24}$$.
 
 
 This is how floating point numbers work, they store two parts for any number.
@@ -40,10 +40,10 @@ Below are some example numbers with their scientific notation form and the signi
 
 |Value|Scientific Notation|Significand|Exponent|
 |---|---|---|---|
-| 197100  | $1971 \times 10^2$ | 1971 | 2|
-| 230000000000| $23 \times 10^{10}$  | 23 | 10|
-| 0.0000001401| $1401 \times 10^{-10}$  | 1401 | -10 |
-| 1313000 | $1313 \times 10^3$ | 1313 | 3 |
+| 197100  | $$1971 \times 10^2$$ | 1971 | 2|
+| 230000000000| $$23 \times 10^{10}$$  | 23 | 10|
+| 0.0000001401| $$1401 \times 10^{-10}$$  | 1401 | -10 |
+| 1313000 | $$1313 \times 10^3$$ | 1313 | 3 |
 
 
 ### Computers use base 2
@@ -67,19 +67,19 @@ For example, the number 12 in base two is `1100`, that is,
 Computers store numbers in exact spaces of 32 bits (or sometimes 64 bits). It is because of this that we end up with floating point errors.
 
 Let's run through an example to understand how floating point errors occur.
-Let's first take $1/3$ in base 10. We know the following to be true.
+Let's first take 1/3 in base 10. We know the following to be true.
 
-$1/3 + 1/3 + 1/3 = 1$
+1/3 + 1/3 + 1/3 = 1
 
-In base 10 $1/3$ is $0.3333\overline{3}$. The $3$ repeats infinitely. So if we were add up $0.3333...$ we end up with the following.
+In base 10, 1/3 is $0.3333\overline{3}$. The 3 repeats infinitely. So if we were add up 0.3333... we end up with the following.
 
-$0.33333... + 0.33333... + 0.333333 = 0.999999...$
+$$0.33333... + 0.33333... + 0.333333 = 0.999999...$$
 
 It doesn't _quite_ add up to 1. A rounding error!
 
 Now let's take an example in base 2. We can take the number `0.1`.
 
-$0.1$ in base 2, much like $1/3$ in base 10, cannot be represented exactly. In the table below we have $0.1$ in base 2 to 5 significant figures.
+0.1 in base 2, much like 1/3 in base 10, cannot be represented exactly. In the table below we have 0.1 in base 2 to 5 significant figures.
 
 |4|2|1|.|1/2|1/4|1/8|1/16|1/32|
 |---|---|---|---|---|---|---|---|---|
@@ -87,9 +87,9 @@ $0.1$ in base 2, much like $1/3$ in base 10, cannot be represented exactly. In t
 
 Written down with more significant figures we see a pattern.
 
-$0.0\overline{0011} = 0.00011001100110011......$
+$$0.0\overline{0011} = 0.00011001100110011......$$
 
-The $0011$ repeats for inifinity (and beyond).
+The 0011 repeats for inifinity (and beyond).
 
 So to store this, the computer would store a significand and its exponential. However, as the computer has limited memory it cannot store the infinitely repeating pattern - it must cut it off when it runs out of space. This is how we end up with a floating point rounding error!
 
