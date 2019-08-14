@@ -1,5 +1,5 @@
 ---
-Title: About me
+Title: About
 draft: false
 ---
 
