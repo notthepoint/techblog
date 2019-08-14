@@ -24,7 +24,7 @@ enableGitInfo = true
   dateFormat = "Jan 2, 2006"
   codePenUser = "notthepoint"
   katex = true
-  custom_css = ["css/images.css"]
+  custom_css = ["/css/images.css"]
 
 [menu]
   [[menu.nav]]
