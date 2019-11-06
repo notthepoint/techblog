@@ -1,4 +1,8 @@
-# What is a pointer?
+---
+title: "What is a pointer?"
+date: 2019-11-05T17:12:23+01:00
+draft: false
+---
 
 ## Computer memory
 
