@@ -2,3 +2,19 @@ small {
   font-size: 0.75em;
   color: grey;
 }
+
+p a {
+  color: #83a0d5;
+}
+
+p a:hover {
+  color: #5d83c8;
+}
+
+p a:visited {
+  color : #887acb; 
+}
+
+p a:visited:hover {
+  color: #7262c1;
+}
