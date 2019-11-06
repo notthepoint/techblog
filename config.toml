@@ -26,6 +26,10 @@ enableGitInfo = true
   katex = true
   custom_css = ["/css/images.css", "/css/posts.css"]
 
+[params.highlight]
+  style = "github"
+  languages = ["go", "ruby", "cpp", "shell", "python"]
+
 [menu]
   [[menu.nav]]
     name = "Home"

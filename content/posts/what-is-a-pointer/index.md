@@ -44,7 +44,7 @@ fmt.Printf("the value of bar is: %v\n", bar)
 ```
 Running the above gives you the output
 
-```
+```shell
 foo is a variable of type: int
 the value of foo is: 3
 bar is a variable of type: *int
@@ -71,7 +71,7 @@ fmt.Printf("dereferencing bar gives the value: %v\n", *bar)
 
 Running the above gives you the output
 
-```
+```shell
 dereferencing bar gives the type: int
 dereferencing bar gives the value: 3
 ```
@@ -123,7 +123,7 @@ fmt.Printf("deferencing bar gives the value: %v\n", *bar)
 
 Running the above gives you the output
 
-```
+```shell
 the value of foo is: 3
 dereferencing bar gives the type: int
 dereferencing bar gives the value: 3
@@ -156,7 +156,7 @@ std::cout << "the value of bar is " << bar << std::endl;
 ```
 Running the above gives you the output
 
-```
+```shell
 the value of foo is 3
 the value of bar is 3
 the value of foo is 4
@@ -188,7 +188,7 @@ int main() {
 
 Running the above gives you the output
 
-```
+```shell
 the value of foo is 3
 the value of bar is 9
 the value of foo is 9
@@ -224,7 +224,7 @@ func main() {
 
 Running the above gives you the output
 
-```
+```shell
 the value of foo is: 3
 the value of bar is: 9
 the value of foo is: 3
@@ -265,7 +265,7 @@ func main() {
 
 Running the above gives you the output
 
-```
+```shell
 the value of foo is: 3
 the value of bar is: 9
 the value of foo is: 9
