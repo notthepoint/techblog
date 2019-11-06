@@ -9,7 +9,7 @@ draft: false
 Before understanding pointers, it is best to start with a brief explanation of memory. Memory in a computer can be thought of as a row of cells, each with their own address. Each cell stores a value and if you have the cell's address you can retrieve the value from it or set a new value in the cell.
 
 <div style="text-align: center;">
-	<img style="margin: 0 auto; display: block;" height="120px" src="what-is-a-pointer/gcmemory-cells.png">
+	<img style="margin: 0 auto; display: block;" height="120px" src="gcmemory-cells.png">
 	<small>A row of memory cells with the memory addresses 11, 12, and 13</small>
 </div>
 
@@ -18,7 +18,7 @@ Before understanding pointers, it is best to start with a brief explanation of m
 A pointer is a value, just like an int or a string. And a pointer value has a pointer type, just like an int value has an int type. The value of a pointer is the memory address of another value.
 
 <div style="text-align: center;">
-	<img style="margin: 0 auto; display: block;" height="160px" src="what-is-a-pointer/gcpointer-to-cell.png">
+	<img style="margin: 0 auto; display: block;" height="160px" src="gcpointer-to-cell.png">
 	<small>The pointer 'my_pointer' has the value 13</small>
 </div>
 
@@ -85,7 +85,7 @@ In the above example as `bar` is 'pointing' to `foo`, if `foo` were to change th
 We can use our representation of memory as a row of cells to understand why this is the case.
 
 <div style="text-align: center; margin: 20px 0;">
-	<img style="margin: 0 auto; display: block;" height="220px" src="what-is-a-pointer/gcpointer-to-val.png">
+	<img style="margin: 0 auto; display: block;" height="220px" src="gcpointer-to-val.png">
 	<small>
 		The variable 'my_var' has the int value 3<br/>
 		The variable 'my_pointer' has a pointer value which is the memory address of 'my_var'
@@ -93,14 +93,14 @@ We can use our representation of memory as a row of cells to understand why this
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
-	<img style="margin: 0 auto; display: block;" height="190px" src="what-is-a-pointer/gcpointer-to-int.png">
+	<img style="margin: 0 auto; display: block;" height="190px" src="gcpointer-to-int.png">
 	<small>
 		The pointer 'my_pointer' points to the memory address of 'my_var'
 	</small>
 </div>
 
 <div style="text-align: center; margin: 20px 0;">
-	<img style="margin: 0 auto; display: block;" height="225px" src="what-is-a-pointer/gcupdate-val.png">
+	<img style="margin: 0 auto; display: block;" height="225px" src="gcupdate-val.png">
 	<small>
 		The pointer 'my_pointer' points to the same memory location, which now stores the new value of 'my_var'<br/>
 		Deferencing 'my_pointer' would now give the value 9
