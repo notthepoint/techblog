@@ -22,7 +22,7 @@ A pointer is a value, just like an int or a string. And a pointer value has a po
 	<small>The pointer 'my_pointer' has the value 13</small>
 </div>
 
-Pointer types are parameterized by a secondary type, such an int type. So, for example, you have an int pointer type or a string pointer type.
+Pointer types are parameterized by a secondary type, such as an int type. So, for example, you have an int pointer type or a string pointer type.
 
 Below is an example of creating a string pointer in Go. Go uses the `*` to indicate a pointer.
 
