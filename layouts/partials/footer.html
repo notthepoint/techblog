@@ -17,4 +17,12 @@
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/{{ . }}.min.js"></script>
   {{ end }}
   <script>hljs.initHighlightingOnLoad();</script>
+  <script>
+    var code_blocks = document.getElementsByTagName('pre');
+    for (index = 0; index < code_blocks.length; ++index) {
+      var block = code_blocks[index];
+      var lang = block.className.replace(' language-','');
+      block.pseudoStyle("before", "content", lang);
+    }
+  </script>
 </footer>

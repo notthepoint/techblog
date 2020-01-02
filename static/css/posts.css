@@ -18,3 +18,23 @@ p a:visited {
 p a:visited:hover {
   color: #7262c1;
 }
+
+pre[aria-label='code sample']:before {
+  float: right;
+  top: -1em;
+  position: relative;
+  border: 1px solid black;
+  border-top: none;
+  padding: 0 10px 2px;
+  border-radius: 0 0 3px 3px;
+}
+
+pre.language-go:before {
+  content: 'go';
+}
+pre.language-c:before {
+  content: 'c++';
+}
+pre.language-ruby:before {
+  content: 'ruby';
+}
